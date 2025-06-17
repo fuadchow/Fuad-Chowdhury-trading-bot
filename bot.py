@@ -2,8 +2,7 @@ import requests
 from telegram import Update
 from telegram.ext import Updater, CommandHandler
 
-TOKEN = "YOUR_BOT_TOKEN"  # ← Replace with your token from @BotFather
-
+TOKEN = "YOUR_BOT_TOKEN"  # 7103468861:AAGVqqzuJTT6NPwhQTBKocMASjGJ6iZ5MZc
 def start(update: Update, context):
     update.message.reply_text("🚀 Trading Bot Active! Use /price BTC")
 
